@@ -9,16 +9,17 @@ const typeDefs = gql`
 const resolvers = {
   Query: {
     message: (parent, args, context) => {
-      return "Helo world from shamaz saeed";
-    },
-  },
+      return "Hello, world from Shamaz saeed";
+    }
+  }
 };
 
 const server = new ApolloServer({
   typeDefs,
   resolvers,
   playground: true,
-  introspection: true,
+  introspection: true
 });
 
 exports.handler = server.createHandler();
+
