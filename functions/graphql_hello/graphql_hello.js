@@ -1,25 +1,25 @@
-const { ApolloServer, gql } = require("apollo-server-lambda");
+// const { ApolloServer, gql } = require("apollo-server-lambda");
 
-const typeDefs = gql`
-  type Query {
-    message: String
-  }
-`;
+// const typeDefs = gql`
+//   type Query {
+//     message: String
+//   }
+// `;
 
-const resolvers = {
-  Query: {
-    message: (parent, args, context) => {
-      return "Hello, world from Shamaz saeed";
-    }
-  }
-};
+// const resolvers = {
+//   Query: {
+//     message: (parent, args, context) => {
+//       return "Hello, world from Shamaz saeed";
+//     }
+//   }
+// };
 
-const server = new ApolloServer({
-  typeDefs,
-  resolvers,
-  playground: true,
-  introspection: true
-});
+// const server = new ApolloServer({
+//   typeDefs,
+//   resolvers,
+//   playground: true,
+//   introspection: true
+// });
 
-exports.handler = server.createHandler();
+// exports.handler = server.createHandler();
 
