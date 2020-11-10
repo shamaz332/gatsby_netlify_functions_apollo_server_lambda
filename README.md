@@ -19,3 +19,15 @@ npm install @apollo/client --save
 
 (((https://github.com/apollographql/apollo-server/issues/1989)))
 
+
+Deploying with Netlify Functions>>>
+
+https://www.apollographql.com/docs/apollo-server/deployment/netlify/
+
+>>>>
+
+Deploy a fullstack Apollo app with Netlify>>>
+
+https://www.apollographql.com/blog/deploy-a-fullstack-apollo-app-with-netlify-45a7dfd51b0b/
+
+>>>
